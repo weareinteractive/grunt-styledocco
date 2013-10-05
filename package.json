@@ -1,0 +1,44 @@
+{
+  "name": "grunt-styledocco",
+  "version": "0.1.0",
+  "description": "StyleDocco styleguide generator for grunt.",
+  "author": {
+    "name": "franklin",
+    "email": "franklin@weareinteractive.com",
+    "url": "http://wwww.weareinteractive.com/"
+  },
+  "keywords": [
+    "gruntplugin",
+    "styleguide",
+    "styledocco",
+    "stylus",
+    "sass",
+    "scss",
+    "css"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/weareinteractive/grunt-styledocco.git"
+  },
+  "bugs": {
+    "url": "https://github.com/weareinteractive/grunt-styledocco/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/weareinteractive/grunt-styledocco/blob/master/LICENSE"
+    }
+  ],
+  "devDependencies": {
+    "chai": "~1.8.0",
+    "grunt": "~0.4.1",
+    "grunt-coffeelint": "0.0.7",
+    "grunt-mocha-test": "~0.7.0",
+    "grunt-contrib-clean": "~0.5.0",
+    "grunt-bump": "0.0.11",
+    "grunt-contrib-coffee": "~0.7.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  }
+}
