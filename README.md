@@ -97,7 +97,7 @@ grunt.initConfig({
 });
 ```
 
-### Documentation
+## Documentation
 Check out the [StyleDocco Website](https://github.com/jacobrask/styledocco) for further reading.
 
 ## Contributing

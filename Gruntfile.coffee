@@ -42,7 +42,7 @@ module.exports = (grunt) ->
         pushTo: 'origin'
         commitFiles: ['-a']
         updateConfigs: ['pkg']
-        files: ['package.json', 'bower.json']
+        files: ['package.json']
 
   # Actually load this plugin's task(s).
   grunt.loadTasks "tasks"
