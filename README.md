@@ -22,7 +22,7 @@ grunt.loadNpmTasks('grunt-styledocco');
 
 ## The "styledocco" task
 
-*Run this task with the `grunt sass` command.*
+*Run this task with the `grunt styledocco` command.*
 
 > StyleDocco generates documentation and style guide documents from your stylesheets.
 >
@@ -31,7 +31,6 @@ grunt.loadNpmTasks('grunt-styledocco');
 > The previews are rendered in a resizable iframes to make it easy to demonstrate responsive designs at different viewport sizes.
 
 This task requires you to have [StyleDocco](https://github.com/jacobrask/styledocco) installed globally. Run `npm install -g styledocco` to install it.
-
 
 ### Options
 
@@ -55,7 +54,6 @@ Type: `String`
 Default value: `null`
 
 A custom preprocessor command (ex: `"~/bin/lessc"`).
-
 
 ### Examples
 
