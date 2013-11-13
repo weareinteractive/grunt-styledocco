@@ -1,7 +1,7 @@
 {
   "name": "grunt-styledocco",
   "version": "0.1.0",
-  "description": "StyleDocco styleguide generator for grunt.",
+  "description": "Grunt StyleDocco style guide generator.",
   "author": {
     "name": "franklin",
     "email": "franklin@weareinteractive.com",
@@ -29,6 +29,9 @@
       "url": "https://github.com/weareinteractive/grunt-styledocco/blob/master/LICENSE"
     }
   ],
+  "engines": {
+    "node": ">= 0.6.0"
+  },
   "devDependencies": {
     "chai": "~1.8.0",
     "grunt": "~0.4.1",

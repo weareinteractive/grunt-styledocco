@@ -37,22 +37,22 @@ This task requires you to have [StyleDocco](https://github.com/jacobrask/styledo
 
 #### options.name
 
-Type: `String`  
-Default value: `Styledocco`  
+Type: `String`
+Default value: `Styledocco`
 
 The name of the project.
 
 #### options.include
 
-Type: `String`  
-Default value: `null`  
+Type: `String`
+Default value: `null`
 
 Include specified CSS and/or JavaScript files in the previews. (ex: `["mysite.css", "app.js"]`)
 
 #### options.preprocessor
 
-Type: `String`  
-Default value: `null`  
+Type: `String`
+Default value: `null`
 
 A custom preprocessor command (ex: `"~/bin/lessc"`).
 

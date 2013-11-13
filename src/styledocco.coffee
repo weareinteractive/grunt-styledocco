@@ -2,12 +2,18 @@
 grunt-styledocco
 https://github.com/weareinteractive/grunt-styledocco
 
-Copyright (c) 2013 We Just Do Stuff, Kim & Pollak GbR under the MIT license.
+Copyright (c) 2013 We Are Interactive
+Licensed under the MIT license.
 ###
-
-"use strict"
-
 module.exports = (grunt) ->
+  "use strict"
+
+  # Please see the grunt documentation for more information regarding task and
+  # helper creation: https://github.com/cowboy/grunt/blob/master/docs/toc.md
+
+  # -----------------------------------------------------------------------------------------------
+  # ~ Tasks
+  # -----------------------------------------------------------------------------------------------
 
   grunt.registerMultiTask "styledocco", "Generate a style guide from your stylesheets.", ->
     done = @async()

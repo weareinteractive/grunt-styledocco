@@ -1,10 +1,12 @@
 module.exports = (grunt) ->
+  'use strict'
 
+  # Project configuration.
   grunt.initConfig
     pkg: grunt.file.readJSON "package.json"
 
     coffeelint:
-      files: ["Gruntfile.coffee", "test/**/*.coffee"]
+      files: ["Gruntfile.coffee", "src/**/*.coffee", "test/**/*.coffee"]
       options:
         max_line_length:
           value: 200
@@ -19,14 +21,14 @@ module.exports = (grunt) ->
 
     clean:
       test:
-        src: ["docs"]
+        src: ["test/tmp/*"]
 
     styledocco:
       test:
         options:
           name: '<%= pkg.name %> v<%= pkg.version %>'
         files: [
-          'docs': 'test/fixtures/structured.css'
+          'test/tmp': 'test/fixtures/structured.css'
         ]
 
     mochaTest:
@@ -50,7 +52,6 @@ module.exports = (grunt) ->
   # Load npm tasks
   grunt.loadNpmTasks "grunt-mocha-test"
   grunt.loadNpmTasks "grunt-coffeelint"
-  grunt.loadNpmTasks "grunt-styledocco"
   grunt.loadNpmTasks "grunt-contrib-clean"
   grunt.loadNpmTasks "grunt-contrib-coffee"
   grunt.loadNpmTasks "grunt-bump"
