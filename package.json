@@ -1,21 +1,13 @@
 {
   "name": "grunt-styledocco",
-  "version": "0.1.1",
   "description": "Grunt StyleDocco style guide generator.",
+  "version": "0.1.1",
+  "homepage": "https://github.com/weareinteractive/grunt-styledocco",
   "author": {
     "name": "franklin",
     "email": "franklin@weareinteractive.com",
     "url": "http://wwww.weareinteractive.com/"
   },
-  "keywords": [
-    "gruntplugin",
-    "styleguide",
-    "styledocco",
-    "stylus",
-    "sass",
-    "scss",
-    "css"
-  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/weareinteractive/grunt-styledocco.git"
@@ -26,22 +18,35 @@
   "licenses": [
     {
       "type": "MIT",
-      "url": "https://github.com/weareinteractive/grunt-styledocco/blob/master/LICENSE"
+      "url": "https://github.com/weareinteractive/grunt-styledocco/blob/master/LICENSE-MIT"
     }
   ],
+  "main": "Gruntfile.coffee",
   "engines": {
-    "node": ">= 0.6.0"
-  },
-  "devDependencies": {
-    "chai": "~1.8.0",
-    "grunt": "~0.4.1",
-    "grunt-coffeelint": "0.0.7",
-    "grunt-mocha-test": "~0.7.0",
-    "grunt-contrib-clean": "~0.5.0",
-    "grunt-contrib-coffee": "~0.7.0",
-    "grunt-bump": "0.0.11"
+    "node": ">= 0.8.0"
   },
   "scripts": {
     "test": "grunt test"
-  }
+  },
+  "devDependencies": {
+    "chai": "~1.8.0",
+    "grunt-coffeelint": "0.0.7",
+    "grunt-contrib-clean": "~0.5.0",
+    "grunt-mocha-cov": "0.0.7",
+    "coffee-script": "~1.6.3",
+    "grunt-bumper": "~1.0.0",
+    "grunt": "~0.4.1"
+  },
+  "peerDependencies": {
+    "grunt": "~0.4.1"
+  },
+  "keywords": [
+    "gruntplugin",
+    "styleguide",
+    "styledocco",
+    "stylus",
+    "sass",
+    "scss",
+    "css"
+  ]
 }

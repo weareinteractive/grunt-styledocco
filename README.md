@@ -1,6 +1,7 @@
 # grunt-styledocco
 
-[![Build Status](https://travis-ci.org/weareinteractive/grunt-styledocco.png?branch=master)](https://travis-ci.org/weareinteractive/grunt-styledocco) [![devDependency Status](https://david-dm.org/weareinteractive/grunt-styledocco/dev-status.png)](https://david-dm.org/weareinteractive/grunt-styledocco#info=devDependencies)
+[![Build Status](https://travis-ci.org/weareinteractive/grunt-styledocco.png?branch=master)](https://travis-ci.org/weareinteractive/grunt-styledocco)
+[![Dependency Status](https://gemnasium.com/weareinteractive/grunt-styledocco.png)](https://gemnasium.com/weareinteractive/grunt-styledocco)
 
 > StyleDocco generates documentation and style guide documents from your stylesheets.
 
@@ -102,4 +103,4 @@ Check out the [StyleDocco Website](https://github.com/jacobrask/styledocco) for 
 In lieu of a formal styleguide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality. Lint and test your code using [Grunt](http://gruntjs.com/).
 
 ## License
-Copyright (c) We Are Interactive under the [MIT licenses](https://github.com/weareinteractive/grunt-styledocco/blob/master/LICENSE)
+Copyright (c) We Are Interactive under the MIT license.
