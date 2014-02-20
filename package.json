@@ -33,7 +33,7 @@
     "grunt-coffeelint": "~0.0",
     "grunt-contrib-clean": "~0.5",
     "grunt-mocha-cov": "~0.2",
-    "coffee-script": "~1.6",
+    "coffee-script": "~1.7",
     "grunt-bumper": "~1.0",
     "grunt": "~0.4"
   },
