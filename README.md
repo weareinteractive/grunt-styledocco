@@ -1,9 +1,9 @@
-[![Stories in Ready](https://badge.waffle.io/weareinteractive/grunt-styledocco.png?label=ready&title=Ready)](https://waffle.io/weareinteractive/grunt-styledocco)
 # grunt-styledocco
 
 [![Build Status](https://travis-ci.org/weareinteractive/grunt-styledocco.png?branch=master)](https://travis-ci.org/weareinteractive/grunt-styledocco)
 [![Dependency Status](https://gemnasium.com/weareinteractive/grunt-styledocco.png)](https://gemnasium.com/weareinteractive/grunt-styledocco)
 [![NPM version](https://badge.fury.io/js/grunt-styledocco.png)](http://badge.fury.io/js/grunt-styledocco)
+[![Stories in Ready](https://badge.waffle.io/weareinteractive/grunt-styledocco.png?label=ready&title=Ready)](https://waffle.io/weareinteractive/grunt-styledocco)
 
 > StyleDocco generates documentation and style guide documents from your stylesheets.
 
