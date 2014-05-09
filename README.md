@@ -59,9 +59,11 @@ A custom preprocessor command (ex: `"~/bin/lessc"`).
 
 ### Examples
 
+*Note: Styledocco only takes in one `path/to/docs` and one `path/to/styles` argument so you can only use single static file mapping!*
+
 #### Example config
 
-```javascript
+```
 grunt.initConfig({
   styledocco: {
     dist: {
@@ -69,7 +71,7 @@ grunt.initConfig({
         name: 'My Project'
       },
       files: {
-        'docs': 'main.css'
+        'path/to/docs': 'path/to/styles'
       }
     }
   }
@@ -82,7 +84,7 @@ grunt.registerTask('default', ['styledocco']);
 
 #### Compile multiple files
 
-```javascript
+```
 grunt.initConfig({
   styledocco: {
     dist: {
@@ -90,7 +92,8 @@ grunt.initConfig({
         name: 'My Project'
       },
       files: {
-        'docs': ['main.css', 'widgets.css']
+        'path/to/docs1': 'path/to/styles1',
+        'path/to/docs2': 'path/to/styles2'
       }
     }
   }

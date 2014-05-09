@@ -24,12 +24,13 @@ module.exports = (grunt) ->
       test:
         src: ["test/tmp/*"]
 
+    # Run for unit tests
     styledocco:
       test:
         options:
           name: "<%= pkg.name %> v<%= pkg.version %>"
         files: [
-          "test/tmp": "test/fixtures/structured.css"
+          "test/tmp": "test/fixtures"
         ]
 
     # Unit tests.
