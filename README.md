@@ -3,6 +3,7 @@
 [![Build Status](https://travis-ci.org/weareinteractive/grunt-styledocco.png?branch=master)](https://travis-ci.org/weareinteractive/grunt-styledocco)
 [![Dependency Status](https://gemnasium.com/weareinteractive/grunt-styledocco.png)](https://gemnasium.com/weareinteractive/grunt-styledocco)
 [![NPM version](https://badge.fury.io/js/grunt-styledocco.png)](http://badge.fury.io/js/grunt-styledocco)
+[![Stories in Ready](https://badge.waffle.io/weareinteractive/grunt-styledocco.png?label=ready&title=Ready)](https://waffle.io/weareinteractive/grunt-styledocco)
 
 > StyleDocco generates documentation and style guide documents from your stylesheets.
 
@@ -59,9 +60,11 @@ A custom preprocessor command (ex: `"~/bin/lessc"`).
 
 ### Examples
 
+*Note: Styledocco only takes in one `path/to/docs` and one `path/to/styles` argument so you can only use single static file mapping!*
+
 #### Example config
 
-```javascript
+```
 grunt.initConfig({
   styledocco: {
     dist: {
@@ -69,7 +72,7 @@ grunt.initConfig({
         name: 'My Project'
       },
       files: {
-        'docs': 'main.css'
+        'path/to/docs': 'path/to/styles'
       }
     }
   }
@@ -82,7 +85,7 @@ grunt.registerTask('default', ['styledocco']);
 
 #### Compile multiple files
 
-```javascript
+```
 grunt.initConfig({
   styledocco: {
     dist: {
@@ -90,7 +93,8 @@ grunt.initConfig({
         name: 'My Project'
       },
       files: {
-        'docs': ['main.css', 'widgets.css']
+        'path/to/docs1': 'path/to/styles1',
+        'path/to/docs2': 'path/to/styles2'
       }
     }
   }
