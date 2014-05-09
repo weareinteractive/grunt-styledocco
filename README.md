@@ -1,3 +1,4 @@
+[![Stories in Ready](https://badge.waffle.io/weareinteractive/grunt-styledocco.png?label=ready&title=Ready)](https://waffle.io/weareinteractive/grunt-styledocco)
 # grunt-styledocco
 
 [![Build Status](https://travis-ci.org/weareinteractive/grunt-styledocco.png?branch=master)](https://travis-ci.org/weareinteractive/grunt-styledocco)
