@@ -58,6 +58,13 @@ Default value: `null`
 
 A custom preprocessor command (ex: `"~/bin/lessc"`).
 
+#### options.verbose
+
+Type: `Boolean`
+Default value: `false`
+
+Show log messages when generating the documentation.
+
 ### Examples
 
 *Note: Styledocco only takes in one `path/to/docs` and one `path/to/styles` argument so you can only use single static file mapping!*
