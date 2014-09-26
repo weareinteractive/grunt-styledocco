@@ -31,6 +31,7 @@ module.exports = (grunt) ->
         args: args
 
       args.push file.src[0]
+      args.push "--no-minify" if options["no-minify"]?
       args.push "--out", file.dest
       args.push "--name", options.name if options.name?
       args.push "--preprocessor", options.preprocessor  if options.preprocessor?
