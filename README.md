@@ -65,6 +65,13 @@ Default value: `false`
 
 Show log messages when generating the documentation.
 
+#### options.no-minify
+
+Type: `Boolean`
+Default value: `false`
+
+Do not minify the code.
+
 ### Examples
 
 *Note: Styledocco only takes in one `path/to/docs` and one `path/to/styles` argument so you can only use single static file mapping!*

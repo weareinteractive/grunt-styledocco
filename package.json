@@ -1,7 +1,7 @@
 {
   "name": "grunt-styledocco",
   "description": "Grunt StyleDocco style guide generator.",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "homepage": "https://github.com/weareinteractive/grunt-styledocco",
   "author": {
     "name": "franklin",
@@ -21,7 +21,6 @@
       "url": "https://github.com/weareinteractive/grunt-styledocco/blob/master/LICENSE-MIT"
     }
   ],
-  "main": "Gruntfile.coffee",
   "engines": {
     "node": ">= 0.8.0"
   },
@@ -31,7 +30,7 @@
   "devDependencies": {
     "chai": "~1.9",
     "grunt-coffeelint": "~0.0",
-    "grunt-contrib-clean": "~0.5",
+    "grunt-contrib-clean": "~0.6",
     "grunt-mocha-cov": "~0.2",
     "coffee-script": "~1.7",
     "grunt-bumper": "~1.0",
