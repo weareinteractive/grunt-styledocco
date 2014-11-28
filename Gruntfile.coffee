@@ -29,6 +29,7 @@ module.exports = (grunt) ->
       test:
         options:
           name: "<%= pkg.name %> v<%= pkg.version %>"
+          cmd: "node_modules/.bin/styledocco"
         files: [
           "test/tmp": "test/fixtures"
         ]
