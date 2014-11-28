@@ -20,6 +20,7 @@ module.exports = (grunt) ->
 
     options = @options(
       name: "Styledocco"
+      cmd: "styledocco"
       include: null
       preprocessor: null
     )
@@ -27,7 +28,7 @@ module.exports = (grunt) ->
     @files.forEach (file) ->
       args = []
       command =
-        cmd: "styledocco"
+        cmd: options.cmd
         args: args
 
       args.push file.src[0]

@@ -33,7 +33,7 @@ grunt.loadNpmTasks('grunt-styledocco');
 >
 > The previews are rendered in a resizable iframes to make it easy to demonstrate responsive designs at different viewport sizes.
 
-This task requires you to have [StyleDocco](https://github.com/jacobrask/styledocco) installed globally. Run `npm install -g styledocco` to install it.
+If you don't have a global install of [StyleDocco](https://github.com/jacobrask/styledocco) which can be achieved by `npm install -g styledocco` , you need to specify options.cmd to the binary you want to use.
 
 ### Options
 
@@ -57,6 +57,13 @@ Type: `String`
 Default value: `null`
 
 A custom preprocessor command (ex: `"~/bin/lessc"`).
+
+#### options.cmd
+
+Type: `String`
+Default value: `styledocco`
+
+A custom Styledocco command (ex: `"./node_modules/.bin/styledocco"`).
 
 #### options.verbose
 
