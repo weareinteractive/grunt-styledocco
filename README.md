@@ -127,7 +127,6 @@ grunt.initConfig({
 Check out the [StyleDocco Website](https://github.com/jacobrask/styledocco) for further reading.
 
 ## Contributing
-[![I Love Open Source](http://www.iloveopensource.io/images/logo-lightbg.png)](http://www.iloveopensource.io/projects/52ee312487659fce6600004a)
 
 In lieu of a formal styleguide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality. Lint and test your code using [Grunt](http://gruntjs.com/).
 
